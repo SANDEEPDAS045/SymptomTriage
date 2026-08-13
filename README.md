@@ -109,7 +109,7 @@ flags) the model will consume:
 **Result card** — predicted condition, risk-score gauge, surgery flag,
 medication chips, and a precautions checklist:
 
-![Result card showing predicted condition, risk gauge, medications, and precautions](assets/result-card.png)
+![Result card showing predicted condition, risk gauge, medications, and precautions]
 
 ---
 
@@ -146,14 +146,14 @@ engineered features feed a TF-IDF vector, get fused into one sparse matrix,
 and are scored by the tuned BernoulliNB classifier before being enriched
 with the static risk/drug/precaution lookup tables:
 
-![Prediction pipeline flowchart: patient input → feature engineering → TF-IDF → feature fusion → BernoulliNB → enriched report](assets/flowchart.jpg)
+![Prediction pipeline flowchart: patient input → feature engineering → TF-IDF → feature fusion → BernoulliNB → enriched report]
 
 ### System architecture
 
 How the client, API server, model artifacts, offline training notebook, and
 reporting layer fit together:
 
-![System architecture diagram: browser/Streamlit clients, Flask API, prediction_helper, model artifacts, offline training, and reporting](assets/system_design.jpg)
+![System architecture diagram: browser/Streamlit clients, Flask API, prediction_helper, model artifacts, offline training, and reporting]
 
 ---
 
